@@ -62,3 +62,14 @@ OPEN_API_KEY=your_openai_api_key
 ### 5. Run the notebook
 jupyter notebook summarizer.ipynb
 Then execute all cells to launch the Gradio interface.
+
+
+---
+
+
+## 🔮 Future Enhancements
+- Multi-page & hierarchical summarization – Extend scraping to handle multi-page websites and generate structured, section-wise summaries.
+- Document-type support – Enable ingestion and summarization of PDFs, DOCX, and other report formats alongside web pages.
+- Adaptive summarization prompts – Provide configurable system prompts for different output styles (executive, technical, bullet points).
+- Content cleaning & preprocessing – Automatically filter boilerplate, navigation menus, and ads for more accurate summaries.
+- Evaluation & feedback integration – Implement user feedback loops and automated quality metrics to continuously improve LLM-generated summaries.
